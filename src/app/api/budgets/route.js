@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import connectToDatabase from '../../../lib/mongodb';
+import connectToDatabase from '../../lib/mongodb.js';
 import Budget from '../../../models/budget';
 
 export async function GET() {
